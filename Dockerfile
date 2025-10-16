@@ -13,4 +13,4 @@ COPY . .
 EXPOSE 5000
 
 # Run both API and bot
-CMD ["sh", "-c", "python terabox_api.py & python bot.py"]
+CMD ["sh", "-c", "python3 api.py & python3 bot.py"]
