@@ -8,7 +8,7 @@ from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, fil
 
 # ===== CONFIG =====
 BOT_TOKEN = "8008678561:AAH80tlSuc-tqEYb12eXMfUGfeo7Wz8qUEU"
-API_BASE = "http://127.0.0.1:5000/api"  # Local API
+API_BASE = "https://teradll.vercel.app/api"  # Local API
 MAX_FILE_SIZE = 2 * 1024 * 1024 * 1024  # 2GB
 CONCURRENT_DOWNLOADS = 10
 semaphore = asyncio.Semaphore(CONCURRENT_DOWNLOADS)
